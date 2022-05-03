@@ -7,3 +7,5 @@ Vi tänker bygga en hemsida där man kan se live-datan av olika kryptovalutor, s
 Hemsidan kommer att byggas i GoLang, HTML och CSS. Vi tänker dessutom köpa domänen memecoins.se
 
 wazzzzzuuppppppppppppp
+
+jacob test
