@@ -19,9 +19,20 @@ const Navbar = () => {
 
         
         </div>
+        <Menu theme = "dark">
+          <Menu.item icon = {<HomeOutlined />}>
+            <Link to = "/">Home</Link>
+          </Menu.item>
+          <Menu.item icon = {<FundOutlined />}>
+            <Link to = "/cryptocurrencies">Cryptocurrencies</Link>
+          </Menu.item>
+          
+
+        </Menu>
     
     </div>
   )
 }
+
 
 export default Navbar
