@@ -2,7 +2,7 @@
 # Cryptotracker Web App
 
 Cryptotracker is a web app that displays data of all the different
-crypto-coins in real time. For instance, the web app displays the current price of a explicit coin, 
+crypto-coins in real time. For instance, the web app displays the current price of an explicit coin, 
 24H price change, the marketcap and more. 
 
 # Languages and Hosting
