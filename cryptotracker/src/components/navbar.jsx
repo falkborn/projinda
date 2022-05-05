@@ -1,35 +1,38 @@
 import React from 'react'
 import { Button, Menu, Typography, Avatar } from 'antd';
-import { Link } from 'react-router-dom'; 
-import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined} from '@ant-design/icons'; 
-import icon from '../images/cryptoimg.png'; 
+import { Link } from 'react-router-dom';
+import { HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-design/icons';
+import icon from '../images/cryptoimg.png';
 
 const Navbar = () => {
   return (
     <div className="nav-container">
-        <div className="logo-container">
-            <Avatar src= {icon} size = "large" /> 
-            <Typography.Title level={2} className = "logo">
-                <Link to="/">Cryptotracker</Link>
-            </Typography.Title>
-           { /* <Button className ="menu-control-container">
+      <div className="logo-container">
+        <Avatar src={icon} size="large" />
+        <Typography.Title level={2} className="logo">
+          <Link to="/">Cryptotracker</Link>
+        </Typography.Title>
+        { /* <Button className ="menu-control-container">
 
   </Button> */ }
 
 
-        
-        </div>
-        <Menu theme = "dark">
-          <Menu.item icon = {<HomeOutlined />}>
-            <Link to = "/">Home</Link>
-          </Menu.item>
-          <Menu.item icon = {<FundOutlined />}>
-            <Link to = "/cryptocurrencies">Cryptocurrencies</Link>
-          </Menu.item>
-          
+      </div>
+      <Menu theme="dark">
+        <Menu.Item icon={<HomeOutlined />}>
+          <Link to="/">Home</Link>
+        </Menu.Item>
+        <Menu.Item icon={<FundOutlined />}>
+          <Link to="/cryptocurrencies">Cryptocurrencies</Link>
+        </Menu.Item>
+        <Menu.Item icon={<MoneyCollectOutlined />}>
+          <Link to="/stockrecommendations">Stock Recommendations</Link>
+        </Menu.Item>
 
-        </Menu>
-    
+
+      </Menu>
+
+
     </div>
   )
 }
