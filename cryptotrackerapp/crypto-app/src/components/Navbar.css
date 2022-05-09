@@ -1,0 +1,25 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    font-size: 2rem;
+    color: #ff8c00; 
+}
+
+.orange {
+    
+    color: #ff8c00; 
+}
+
+.plus {
+    color: green;  
+}
+
+.minus {
+    color: red; 
+}
