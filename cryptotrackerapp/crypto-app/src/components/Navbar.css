@@ -11,15 +11,24 @@
     color: #ff8c00; 
 }
 
+.icon2 {
+    font-size: 2rem;
+    color: rgb(0, 87, 128) 
+
+}
+
 .orange {
     
     color: #ff8c00; 
 }
 
-.plus {
-    color: green;  
-}
+.news {
 
-.minus {
-    color: red; 
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 255, 128); 
+    align-items: center;
+    font-size: .8rem;
+    margin-left: -600px;
+    margin-top: -60px;
 }

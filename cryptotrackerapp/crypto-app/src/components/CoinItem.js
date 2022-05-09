@@ -15,7 +15,9 @@ const CoinItem = (props) => {
 
         </div>
     <p>${props.coins.current_price}</p>
+    <div className={profit > 0 ? 'plus' : 'minus'}>
     <p>{profit && '+'}{props.coins.price_change_percentage_24h.toFixed(2)}%</p>
+    </div>
     <p className='hide-mobile'>${props.coins.total_volume}</p>
     <p className='hide-mobile'>${millify(props.coins.market_cap)}</p>
     

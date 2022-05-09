@@ -16,12 +16,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-color: #26272b;
-  color: aliceblue;
+  color: white; 
 
 }
 
 a {
-  color: aliceblue;
+  color: white; 
    /* text-decoration: none; */
 
 }
@@ -31,7 +31,9 @@ h1 {
     text-align: center;
     margin: 1rem; 
 
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
