@@ -1,15 +1,15 @@
+
+
 ![Cryptotracker](https://media0.giphy.com/media/3ohs7HdhQA4ffttvrO/200w.gif?cid=82a1493bcwl77c0qybxo95msc1ului8u3bkpfep6pdv7725v&rid=200w.gif&ct=g)
 # Cryptotracker Web App
 
-Cryptotracker is a web app that displays data of all the different
-crypto-coins in real time. For instance, the web app displays the current price of an explicit coin, 
-24H price change, the marketcap and more. 
+Crypto Lab is a web app that displays data of the top 100
+crypto-currencies in real time. Data that is displayed for an explicit coin is for instance
+market cap, volume, 24h change in price, rank etc. 
 
 # Languages and Hosting
 
-This project is built in Javascript, HTML and Css. The Web App is then 
-hosted on the web using the Netifly tool. 
-
+This project is built i React JS and is hosted using the tool Netlify. 
 
 ## Authors
 
