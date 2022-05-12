@@ -10,7 +10,15 @@ const Navbar = () => {
     <div className='navbar'>
         <FaBitcoin className='icon' />
         <h1> Crypto <span className='orange'>Lab</span></h1>
+        <div className='stockrecommendations'>
+        <h1> Stock <span className='orange'>Recommendations</span></h1>
+        </div>
+        
+        
+       
     </div>
+        
+        
 </Link>
   )
 }

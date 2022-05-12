@@ -1,6 +1,8 @@
 import React from 'react'
+import axios from 'axios'
 
-const Stockrecommendations = () => {
+
+const StockRecommendations = () => {
     return (
         <div>
             Stock Recommendations
@@ -8,4 +10,4 @@ const Stockrecommendations = () => {
     )
 }
 
-export default Stockrecommendations
+export default StockRecommendations
