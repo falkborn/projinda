@@ -33,6 +33,12 @@
     margin-top: -60px;
 }
 
-.stockrecommendations {
+.cryptorecommendations {
     font-size: 11px;
+    margin-top: -30px;
+}
+
+.cryptonews {
+    font-size: 11px;
+    margin-top: -15px;
 }

@@ -4,7 +4,9 @@ import {Routes, Route} from 'react-router-dom'
 import Coins from './components/Coins'
 import Navbar from './components/Navbar'
 import Coin from './routes/Coin'
-import StockRecommendations from './routes/StockRecommendations'
+import CryptoRecommendations from './components/CryptoRecommendations'
+import CryptoNews from './components/CryptoNews'
+
 
 //hej
 function App() {
@@ -27,7 +29,8 @@ function App() {
     <>
     <Navbar />
       <Routes>
-        <Route exact path='/stockrecommendations' element={<StockRecommendations />} />
+        <Route path='/cryptorecommendations' element={<CryptoRecommendations />}/>
+        <Route path='/cryptonews' element={<CryptoNews />}/>
         <Route path='/' element={<Coins coins={coins} />} />
         <Route path='/coin' element={<Coin />}>
           <Route path=':coinId' element={<Coin />} />
