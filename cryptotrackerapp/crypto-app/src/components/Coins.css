@@ -39,12 +39,12 @@
 
 .plus {
     
-    color: rgb(0, 128, 47); 
+    color: rgb(75, 183, 115); 
     display: flex;
 }
 
 .minus {
-    color: rgb(255, 0, 0); 
+    color: rgb(216, 85, 85); 
     display: flex; 
 }
 

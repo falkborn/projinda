@@ -4,8 +4,11 @@ import {Routes, Route} from 'react-router-dom'
 import Coins from './components/Coins'
 import Navbar from './components/Navbar'
 import Coin from './routes/Coin'
+import CryptoRecommendations from './components/CryptoRecommendations'
+import CryptoNews from './components/CryptoNews'
 
 
+//hej
 function App() {
 
   const [coins, setCoins] = useState([])
@@ -26,6 +29,8 @@ function App() {
     <>
     <Navbar />
       <Routes>
+        <Route path='/cryptorecommendations' element={<CryptoRecommendations />}/>
+        <Route path='/cryptonews' element={<CryptoNews />}/>
         <Route path='/' element={<Coins coins={coins} />} />
         <Route path='/coin' element={<Coin />}>
           <Route path=':coinId' element={<Coin />} />

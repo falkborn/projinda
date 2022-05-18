@@ -14,9 +14,9 @@
 }
 
 .rank-btn {
-    border: 1px solid #6900ff;
-    box-shadow: 0px 0px 8px #6900ff;
-    background-color: #6900ff;
+    border: 1px solid #ff8c00;
+    box-shadow: 0px 0px 8px #ff8c00a7;
+    background-color: #ff8c00;
     border-radius: 8px;
     padding: .2rem;
     animation: bounce;
@@ -37,13 +37,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #6900ff;
-    box-shadow: 0px 0px 8px #6900ff;
-    background-color: #6900ff;
+    border: 1px solid #ff8c00;
+    box-shadow: 0px 0px 8px #ff8c00a7;
+    background-color: #ff8c00;
     border-radius: 2px;
     padding: .2rem;
 
-    
+
 }
 
 
@@ -55,13 +55,14 @@ table {
     margin: .5rem 0;
 }
 
-td, th {
+td,
+th {
     padding: 8px;
     text-align: center;
 }
 
 th {
-    background-color: rgba(201, 92, 24, 0.77); 
+    background-color: rgba(83, 133, 78, 0.759);
 }
 
 .stats {
@@ -98,7 +99,8 @@ th {
         grid-template-columns: 1fr;
     }
 
-    td,th {
+    td,
+    th {
         padding: 3px;
     }
 
@@ -111,10 +113,13 @@ th {
     }
 
     .plus {
-        color: green; 
+        color: rgb(65, 168, 65);
     }
 
     .minus {
-        color: red; 
+        color: rgb(171, 69, 69);
     }
+
+    
+    
 }
