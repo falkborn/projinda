@@ -4,8 +4,8 @@ import {Routes, Route} from 'react-router-dom'
 import Coins from './components/Coins'
 import Navbar from './components/Navbar'
 import Coin from './routes/Coin'
-import CryptoRecommendations from './components/CryptoRecommendations'
-import CryptoNews from './components/CryptoNews'
+import CryptoRecommendations from './routes/CryptoRecommendations'
+import CryptoNews from './routes/CryptoNews'
 
 
 //hej
