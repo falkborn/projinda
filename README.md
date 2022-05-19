@@ -15,22 +15,10 @@ This project is built by using the React.js framework.
 The project is coded in Javascript and Css and is hosted by using Netlify. 
 
 
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Orange            | ![#ff8c00](https://via.placeholder.com/10/ff8c00?text=+) #ff8c00 |
-| Background-color  | ![#2627b](https://via.placeholder.com/10/2627b?text=+)#2627b |
-| Rank-border       | ![#6900ff](https://via.placeholder.com/10/6900ff?text=+) #6900ff|
-| Sign In/Sign Up form  | ![#ded8d1](https://via.placeholder.com/10/ded8d1?text=+) #ded8d1 |
-
-
 ## API
 
 The API that was used in this project is called "CoinGecko API V3"
 and is a free Cryptocurrency API where you can fetch live data for all the differet coins. 
-
-
 
 
 ## Authors
