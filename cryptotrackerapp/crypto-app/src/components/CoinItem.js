@@ -2,7 +2,10 @@ import React from 'react'
 import './Coins.css'
 import millify from 'millify'
 
+
 const CoinItem = (props) => {
+
+
 
   let profit = props.coins.price_change_percentage_24h >= 0; 
 
