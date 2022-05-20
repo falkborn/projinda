@@ -9,7 +9,7 @@ import {FaHeart, FaRegHeart} from 'react-icons/fa'
 
 const Coin = (props) => {
 
-const [like, Setlike] = useState(false) 
+    const [like, Setlike] = useState(false) 
 
   
   
@@ -27,7 +27,7 @@ const [like, Setlike] = useState(false)
     }).catch((error) => {
       console.log(error)
     })
-  }, [])
+  }, )
 
   return (
     <div>
@@ -35,7 +35,7 @@ const [like, Setlike] = useState(false)
         <div className='content'>
             <h1>{coin.name}</h1>
         <p>
-            {like ? <FaHeart className='hjärta1' /> : <FaRegHeart className='hjärta2' />}
+        {like ? <FaHeart className='hjärta1' /> : <FaRegHeart className='hjärta2' />}
         </p>
         </div>
 
